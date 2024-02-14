@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!--src=youtube-->
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--src=youtube-->
+    <head>
+        *<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+              if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                document.getElementById("menu").style.opacity = 1;
+              } else {
+                document.getElementById("menu").style.opacity = 0;
+              }
+            }//source W3school = resize header on scroll
+
+            </script>
+            <!--menu--bootstrap--src=https://www.youtube.com/watch?v=kmmxxfyufLE-->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+                <div class="container" id="menu">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a href="index.html"><button class="btn btn-dark float-start">home</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://www.youtube.com/"><button class="btn btn-dark float-start">youtube</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://www.reddit.com/"><button class="btn btn-dark float-start">reddit</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://cs50.harvard.edu/x/2022/psets/8/homepage/"><button class="btn btn-dark float-start">CS50 Homepage</button></a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!--/menu-->
+        <div class="welcome">
+            <div class="chaoticry">homepage</div>
+            <div class="background">
+                <div class="welcometo">WELCOME TO</div>
+                <div class="my-homepage">my homepage</div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="container" style="height:500px">
+                <div class="row">
+                    <!--source:W3school:card flip-->
+                    <div class="face">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="pic"src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Marcus_Aurelius_Louvre_MR561_n02.jpg/1365px-Marcus_Aurelius_Louvre_MR561_n02.jpg">
+                              </div>
+                              <div class="flip-card-back">
+                                   <img src="https://images.pexels.com/photos/7067077/pexels-photo-7067077.jpeg" class="pic">
+                              </div>
+                            </div>
+                      <!--source:W3school:card flip-->
+                          </div>
+                    </div>
+                    <div class="neame" style="color:azure;">
+                            <h1>Marcus Aurelius</h1>
+                            <h4>A man of great wisdom</h4>
+                            <hr style="color:white; border-style:solid; height:5px;">
+                            <h6>The Last Good Emperor  &#10024; </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="font-style:italic;color:azure;font-size:x-large;" >
+                <div class="entryrow">
+                    <div class="pb">
+                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383681793l/1168191.jpg" class="image" ">
+                        The Meditations of Marcus Aurelius
+                    </div>
+                    <div class="pb">
+                        +made quite a long time ago <br>
+                        +still quite relatable<br>
+                        +a thing to appreciate<br>
+                    </div>
+                </div>
+                <div class="entryrow">
+                    <div class="pb">
+                        <img src="https://www.1st-art-gallery.com/thumbnail/132000/132465/large_rect_743x364/Checa-Y-Sanz/A-Banquet-In-Neros-Palace,-Illustration-From-Quo-Vadis,-C.1910.jpg?ts=1505655060" class="image">
+                        the roman empire
+                    </div>
+                    <div class="pb">
+                        +the west fell in 400<br>
+                        +the east lasted for 10,053 years more <br>
+                        +before it finally felled<br>
+                    </div>
+                </div>
+                <div class="entryrow">
+                    <div class="pb">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7md5v_ltt1Tlp_XAY0xP1dm_hrJTTqEc9yMF58JJ-LGnTx_Z6h7uGi_7D4XHF6-GYAX0&usqp=CAU" class="image"">
+                        commodus then son of Marcus
+                    </div>
+                    <div class="pb">
+                        +one of the worst emperor in rom<br>
+                        +didnt deserve the crown at all<br>
+                        +such a tragedy for Marcus
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
